@@ -13,6 +13,10 @@
     chosen {
         zmk,physical-layout = &foostan_corne_6col_layout;
         // zmk,physical-layout = &foostan_corne_5col_layout;
+        zmk,battery = &vbatt;
+    };
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
     };
 };
 
