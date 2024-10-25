@@ -1,6 +1,6 @@
 #include "corneish_zen.dtsi"
 
-&kscan {
+&kscan0 {
     col-gpios
         = <&gpio0 31 GPIO_ACTIVE_HIGH>
         , <&gpio0 29 GPIO_ACTIVE_HIGH>
