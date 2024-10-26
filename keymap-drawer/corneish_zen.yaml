@@ -57,7 +57,7 @@ layers:
   - UP ARROW
   - '-'
   - '='
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
