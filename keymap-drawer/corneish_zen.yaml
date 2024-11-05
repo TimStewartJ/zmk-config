@@ -147,12 +147,12 @@ layers:
   - {t: ▽, type: trans}
   - '&sys_reset'
   - '&bootloader'
-  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&soft_off'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&bootloader'
   - '&sys_reset'
   - {t: ▽, type: trans}
