@@ -1,7 +1,7 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, NUMBER,
-    SPACE, RET, SYMBOL, RALT]
+    SPACE, RET, SYMBOL, LALT]
   NUMBER:
   - {t: ▽, type: trans}
   - '1'
@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,12 +82,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {t: ▽, type: trans}
+  - LEFT WIN
   - ADJUST
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - RALT
   ADJUST:
   - F1
   - F2
