@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corneish_zen, layout_name: foostan_corne_6col_layout}
 layers:
   QWERTY: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, NUMBER,
     SPACE, RET, SYMBOL, LALT]
@@ -16,21 +16,21 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F13
+  - F14
+  - F15
+  - F16
   - '['
   - ']'
+  - F17
+  - F18
+  - F19
+  - F20
+  - F21
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F22
+  - F23
+  - F24
   - sleep
   - (
   - )
