@@ -34,9 +34,9 @@ layers:
   - sleep
   - (
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INSERT
+  - END
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
