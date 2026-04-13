@@ -101,7 +101,7 @@ layers:
   - F10
   - F11
   - F12
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - RGB TOG
   - RGB EFR
   - RGB EFF
