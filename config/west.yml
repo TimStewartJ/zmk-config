@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: timstewartj
-      revision: caksoylar/zen-v1+v2  # custom branch name
+      revision: 168deda1d13c56524c2c4ba4da7c934c242072f6
       import: app/west.yml
   self:
     path: config
